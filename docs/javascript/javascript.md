@@ -2,6 +2,9 @@
 sidebar: auto
 ---
 
+**目录**
+[[toc]]
+
 # 第一章 ECMAScript 相关介绍
 
 ## 1.1 什么是ECMA
