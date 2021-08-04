@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ES6-ES11 | Ming Notes</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/notes-docs/logo.png">
+    <meta name="description" content="notes">
+    
+    <link rel="preload" href="/notes-docs/assets/css/0.styles.83bf9b62.css" as="style"><link rel="preload" href="/notes-docs/assets/js/app.d76cb224.js" as="script"><link rel="preload" href="/notes-docs/assets/js/2.bac43873.js" as="script"><link rel="preload" href="/notes-docs/assets/js/10.1755fedd.js" as="script"><link rel="prefetch" href="/notes-docs/assets/js/11.176e17c1.js"><link rel="prefetch" href="/notes-docs/assets/js/3.186bf02b.js"><link rel="prefetch" href="/notes-docs/assets/js/4.a2a22d24.js"><link rel="prefetch" href="/notes-docs/assets/js/5.2f44aefb.js"><link rel="prefetch" href="/notes-docs/assets/js/6.0377ba0c.js"><link rel="prefetch" href="/notes-docs/assets/js/7.50e453ae.js"><link rel="prefetch" href="/notes-docs/assets/js/8.25987fcb.js"><link rel="prefetch" href="/notes-docs/assets/js/9.6973b918.js">
+    <link rel="stylesheet" href="/notes-docs/assets/css/0.styles.83bf9b62.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/notes-docs/" class="home-link router-link-active"><img src="/notes-docs/logo.png" alt="Ming Notes" class="logo"> <span class="site-name can-hide">Ming Notes</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/notes-docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/notes-docs/interview/" class="nav-link">
+  手记
+</a></div><div class="nav-item"><a href="/notes-docs/javascript/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  javascript
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Api</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Api</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/notes-docs/api/" class="nav-link">
+  网站前端
+</a></li><li class="dropdown-item"><!----> <a href="/notes-docs/api/admin/" class="nav-link">
+  网站后端
+</a></li></ul></div></div><div class="nav-item"><a href="/notes-docs/javascript/javascript.html" class="nav-link">
+  代码片段
+</a></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/notes-docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/notes-docs/interview/" class="nav-link">
+  手记
+</a></div><div class="nav-item"><a href="/notes-docs/javascript/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  javascript
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Api</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Api</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/notes-docs/api/" class="nav-link">
+  网站前端
+</a></li><li class="dropdown-item"><!----> <a href="/notes-docs/api/admin/" class="nav-link">
+  网站后端
+</a></li></ul></div></div><div class="nav-item"><a href="/notes-docs/javascript/javascript.html" class="nav-link">
+  代码片段
+</a></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>ES6-ES11</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/notes-docs/javascript/#es6-箭头函数" class="sidebar-link">ES6-箭头函数</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/notes-docs/javascript/#es6-函数参数的默认值" class="sidebar-link">ES6-函数参数的默认值</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/notes-docs/javascript/#es6-rest参数" class="sidebar-link">ES6-rest参数</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="es6-es11"><a href="#es6-es11" class="header-anchor">#</a> ES6-ES11</h1> <h2 id="es6-箭头函数"><a href="#es6-箭头函数" class="header-anchor">#</a> ES6-箭头函数</h2> <ul><li><p>基础语法：<code>(参数1, 参数2, …, 参数N) =&gt; { 函数声明 }</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">let</span> <span class="token function-variable function">fun</span><span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">m<span class="token punctuation">,</span> n</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> m <span class="token operator">+</span> n
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">fun</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div></li> <li><p>箭头函数简写</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 省略小括号（有且只有一个参数）</span>
+<span class="token keyword">let</span> <span class="token function-variable function">fun</span> <span class="token operator">=</span> <span class="token parameter">name</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> name <span class="token operator">+</span> <span class="token string">'你好帅！'</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 省略花括号（代码只有一条语句）</span>
+<span class="token keyword">let</span> <span class="token function-variable function">fun</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">return</span> name <span class="token operator">+</span> <span class="token string">'你好帅！'</span>
+
+<span class="token comment">// 省略小括号、花括号</span>
+<span class="token keyword">let</span> <span class="token function-variable function">fun</span> <span class="token operator">=</span> <span class="token parameter">name</span> <span class="token operator">=&gt;</span> <span class="token keyword">return</span> name <span class="token operator">+</span> <span class="token string">'你好帅！'</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">fun</span><span class="token punctuation">(</span><span class="token string">'小明'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div></li> <li><p>this指针</p> <p>箭头函数不会创建自己的 <code>this</code> 它只会从自己的作用域链的上一层继承 <code>this</code></p> <p><code>this</code> 是静态的 <code>this</code> 始终指向函数声明所在作用域的 <code>this</code> 的值</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">getName1</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+			
+<span class="token keyword">let</span> <span class="token function-variable function">getName2</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>name<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+window<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">'小明同学'</span>
+<span class="token keyword">const</span> school <span class="token operator">=</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'大明同学'</span>
+<span class="token punctuation">}</span>
+			
+<span class="token comment">// 直接调用 </span>
+<span class="token function">getName1</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// 输出：小明同学</span>
+<span class="token function">getName2</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// 输出：小明同学</span>
+			
+<span class="token comment">// call 方法调佣</span>
+<span class="token function">getName1</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>school<span class="token punctuation">)</span> <span class="token comment">// 输出：大明同学 this作用域改变</span>
+<span class="token function">getName2</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>school<span class="token punctuation">)</span> <span class="token comment">// 输出：小明同学 this始终指向全局作用域</span>
+</code></pre></div></li> <li><p>不能作为构造函数实例化对象</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">let</span> <span class="token function-variable function">Person</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">name<span class="token punctuation">,</span> age</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name
+  <span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age
+<span class="token punctuation">}</span>
+<span class="token keyword">var</span> person <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">'小明'</span><span class="token punctuation">,</span> <span class="token number">13</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>person<span class="token punctuation">)</span>
+
+错误：Uncaught TypeError<span class="token operator">:</span> Person is not a constructor
+</code></pre></div></li> <li><p>不能使用 arguments 变量</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">let</span> <span class="token function-variable function">fun</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arguments<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+<span class="token function">fun</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">,</span> <span class="token string">'b'</span><span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">)</span>
+
+错误：Uncaught ReferenceError<span class="token operator">:</span> arguments is not defined
+</code></pre></div></li></ul> <h2 id="es6-函数参数的默认值"><a href="#es6-函数参数的默认值" class="header-anchor">#</a> ES6-函数参数的默认值</h2> <p>ES6 允许给函数参数赋值初始值</p> <ul><li><p>形参初始值（一般位置要靠后）</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c<span class="token operator">=</span><span class="token number">9</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> a <span class="token operator">+</span> b <span class="token operator">+</span> c
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> result <span class="token operator">=</span> <span class="token function">fun</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span>
+</code></pre></div></li> <li><p>与解构赋值结合</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">sayHello</span><span class="token punctuation">(</span><span class="token punctuation">{</span>name<span class="token punctuation">,</span> talk<span class="token operator">=</span><span class="token string">'你最傻'</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> name <span class="token operator">+</span> talk
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> result <span class="token operator">=</span> <span class="token function">sayHello</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'小明'</span><span class="token punctuation">,</span>
+  talk<span class="token operator">:</span> <span class="token string">'你最帅'</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span>
+</code></pre></div></li></ul> <h2 id="es6-rest参数"><a href="#es6-rest参数" class="header-anchor">#</a> ES6-rest参数</h2> <p>ES6 引入 <code>rest</code> 参数，用于获取函数的实参，用来代替 <code>arguments</code></p> <ul><li><p>ES5 获取实参的方式</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">star</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arguments<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+<span class="token function">star</span><span class="token punctuation">(</span><span class="token string">'王源'</span><span class="token punctuation">,</span> <span class="token string">'王俊凯'</span><span class="token punctuation">,</span> <span class="token string">'易烊千玺'</span><span class="token punctuation">)</span>
+
+注意：arguments 数组类型
+</code></pre></div></li> <li><p>ES6 获取实参的方式 (rest参数一般放在最后)</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">star</span><span class="token punctuation">(</span><span class="token parameter"><span class="token operator">...</span>args</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>args<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+<span class="token function">star</span><span class="token punctuation">(</span><span class="token string">'王源'</span><span class="token punctuation">,</span> <span class="token string">'王俊凯'</span><span class="token punctuation">,</span> <span class="token string">'易烊千玺'</span><span class="token punctuation">)</span>
+
+注意：args 对象类型
+</code></pre></div></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/notes-docs/assets/js/app.d76cb224.js" defer></script><script src="/notes-docs/assets/js/2.bac43873.js" defer></script><script src="/notes-docs/assets/js/10.1755fedd.js" defer></script>
+  </body>
+</html>
