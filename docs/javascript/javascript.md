@@ -81,6 +81,9 @@ let str = `<ul>
 let lovest = '魏翔'
 let out = `$(lovest)是我心目中最搞笑的演员！！！`
 ```
+## 2.5 箭头函数
+
+
 
 
 

@@ -10,7 +10,8 @@ module.exports = {
     lastUpdated: 'Last Updated', // string | boolean
     nav: [
       { text: '首页', link: '/' },
-      { text: '手记', link: '/javascript/javascript' },
+      { text: '手记', link: '/interview/' },
+      { text: 'javascript', link: '/javascript/' },
       {
         text: 'Api',
         ariaLabel: 'Language Menu',
@@ -24,14 +25,14 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: '网站前端',   // 必要的
-        path: '/api/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        title: 'ES6-ES11',   // 必要的
+        path: '/javascript/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 2,    // 可选的, 默认值是 1
       }
     ]
   },
-  markdown: {
-    lineNumbers: true
-  }
+  // markdown: {
+  //   lineNumbers: true
+  // }
 }
