@@ -11,6 +11,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '手记', link: '/interview/' },
+      { text: 'CSS', link: '/css/css-float/' },
       { text: 'javascript', link: '/javascript/' },
       {
         text: 'Api',
@@ -23,14 +24,11 @@ module.exports = {
       { text: '代码片段', link: '/javascript/javascript' },
       { text: 'GitHub', link: 'https://google.com' },
     ],
-    sidebar: [
-      {
-        title: 'ES6-ES11',   // 必要的
-        path: '/javascript/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: true, // 可选的, 默认值是 true,
-        sidebarDepth: 2,    // 可选的, 默认值是 1
-      }
-    ]
+    sidebar: {
+      '/css/css-float/' : [
+        'css-float'
+      ]
+    }
   },
   // markdown: {
   //   lineNumbers: true
